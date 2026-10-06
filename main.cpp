@@ -1,9 +1,12 @@
-#include <iostream>
+#include "functii.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+
+functiiPrincipale();
+
+
     return 0;
 }
