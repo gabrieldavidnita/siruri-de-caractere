@@ -1,8 +1,12 @@
 # depslib dependency file v1.0
-1791308058 source:c:\mycode\siruri-de-caractere\main.cpp
-	"functii.h"
+1792513128 source:c:\mycode\siruri-de-caractere\main.cpp
+	"fisa2.h"
 
 1791309467 c:\mycode\siruri-de-caractere\functii.h
+	<cstring>
+	<iostream>
+
+1792513257 c:\mycode\siruri-de-caractere\fisa2.h
 	<cstring>
 	<iostream>
 
