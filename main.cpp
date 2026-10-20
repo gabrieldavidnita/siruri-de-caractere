@@ -6,7 +6,7 @@ int main()
 {
 
 
-     sol1();
+    sol8();
 
     return 0;
 }
