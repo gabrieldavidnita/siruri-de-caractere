@@ -32,6 +32,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="fisa2.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="fisa3.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="functii.h" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>

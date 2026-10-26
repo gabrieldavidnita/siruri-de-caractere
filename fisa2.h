@@ -98,8 +98,7 @@ void sol5()
      char cuvinte[100][100]={"pere","mere" ,"ana", "caise"};
      int n= 4;
      primulAlfabetic(cuvinte,n);
-
-
+s
 }
 
 void cautaCaracter(char s[] , char c)
@@ -172,5 +171,95 @@ void sol8()
     char s[100]="Ana are mere" ;
     char c='e';
     aparitiiCaracter(s,c);
+}
+
+
+void aparitiiSecventa(char s[],char t[])
+{
+    int nr=0;
+    int n=strlen(s);
+    int m=strlen(t);
+
+    if(m==0)
+    {
+        cout<<0;
+        return;
+    }
+
+    for(int i=0;i<=n-m;i++)
+    {
+        int j=0;
+        for(;j<m&&s[i+j]==t[j];j++)
+        {
+        }
+        if(j==m)
+            nr++;
+    }
+    cout<<nr;
+}
+
+void sol9()
+{
+    char s[100]="Ana are mere";
+    char t[100]="re";
+    aparitiiSecventa(s,t);
+}
+
+void numarCuvinte(char s[])
+{
+    int nr=0;
+    for(int i=0;s[i]!='\0';i++)
+    {
+        if(s[i]!=' '&&s[i]!=','&&s[i]!='.')
+        {
+            if(i==0||s[i-1]==' '||s[i-1]==','||s[i-1]=='.')
+                nr++;
+        }
+    }
+    cout<<nr;
+}
+
+void sol10()
+{
+    char s[100]="Ana, are mere.";
+    numarCuvinte(s);
+}
+
+
+
+//11 ?
+
+
+void aparitiiCuvant(char s[],char cuvant[])
+{
+    int nr=0;
+    char cuv[100];
+    for(int i=0;s[i]!='\0';i++)
+    {
+        if(s[i]!=' '&&s[i]!=','&&s[i]!='.')
+        {
+            int k=0;
+            int j;
+            for(j=i;s[j]!='\0'&&s[j]!=' '&&s[j]!=','&&s[j]!='.';j++)
+            {
+                cuv[k]=s[j];
+                k++;
+            }
+            cuv[k]='\0';
+
+            if(strcmp(cuv,cuvant)==0)
+                nr++;
+
+            i=j-1;
+        }
+    }
+    cout<<nr;
+}
+
+void sol12()
+{
+    char s[100]="Ana are mere care are";
+    char cuvant[100]="are";
+    aparitiiCuvant(s,cuvant);
 }
 #endif // FISA2_H_INCLUDED
