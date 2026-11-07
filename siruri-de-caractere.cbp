@@ -32,6 +32,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="algoritmi-cifre-siruri.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="algoritmi-siruri.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="fisa2.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>

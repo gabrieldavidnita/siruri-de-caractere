@@ -1,5 +1,5 @@
-#ifndef ALGORITMI_H_INCLUDED
-#define ALGORITMI_H_INCLUDED
+#ifndef ALGORITMI_SIRURI_H_INCLUDED
+#define ALGORITMI_SIRURI_H_INCLUDED
 
 #include <iostream>
 #include <cstring>
@@ -513,4 +513,4 @@ void exemple()
     }
 }
 
-#endif // ALGORITMI_H_INCLUDED
+#endif // ALGORITMI_SIRURI_H_INCLUDED
